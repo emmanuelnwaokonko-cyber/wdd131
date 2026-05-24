@@ -20,3 +20,7 @@ course-title{
     padding: 15px;
     font-weight: 400;
 }
+.cards-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
