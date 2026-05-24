@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playwrite GB S Guides", cursive;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.8;
+}
+header{
+    background-color: azure;
+}
+course-title{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    padding: 15px;
+    font-weight: 400;
+}
