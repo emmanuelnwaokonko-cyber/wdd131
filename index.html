@@ -6,6 +6,11 @@
         <title>WDD 131 - Dynamic Web Fundamentals - Emmanuel N</title>
         <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Emmanuel Nwaokonko. Homepage featuring web dev resources.">
         <meta name="author" content="Emmanuel Nwaokonko">
+        <link rel="stylesheet" href="styles/base.css">
+        <script src="scripts/getdates.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -13,8 +18,51 @@
                 WDD 131 - Dynamic Web Fundamentals
             </span>
             <nav>
-                AAAAA
+                <a href="https://www.linkedin.com/in/emmanuel-nwaokonko/" target="_blank">LinkedIn</a>
+                <a href="https://byupw.instructure.com/courses/" target="_blank">I-Learn</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng" target="_blank">Scripture</a>
+                <a href="final-project/" target="_blank">Final Project</a>
             </nav>
         </header>
+        <main>
+            <h1>Emmanuel Nwaokonko</h1>
+            <div class="cards-container">
+                <section class="card">
+                    <h2>About Me</h2>
+                    <div class="about-content">
+                        <div class="intro">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam tempore animi beatae. Sint ut consectetur voluptatibus tenetur odit, rerum voluptas! Voluptatem nihil ad illum repellat vero doloremque, soluta quod.</p>
+                            <img src="images/profile.jpg" alt="profile photo of Emmanuel">
+                        </div>
+                        <h3>Aba, Nigeria</h3>
+                        <div class="country-info">
+                            <figure>
+                                <img src="images/nigeria-flag.jfif" alt="Nigeria Flag">
+                                <figcaption>Official Flag of Nigeria</figcaption>
+                            </figure>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae maxime fugiat error, voluptatem quia libero officiis modi explicabo perferendis necessitatibus reiciendis natus soluta placeat dolore itaque veniam consequatur sunt nesciunt?</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <h2>Web Dev Resources</h2>
+                    <ul>
+                        <li><a href="https://dev.to/" target="_blank">Dev.to Community</a></li>
+                        <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+                        <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                        <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                        <li><a href="https://picsum.photos/" target="_blank">Lorem Picsum</a></li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>
+                <span id="currentyear"></span>
+               &copy;2026 | Emmanuel Nwaokonko | Nigeria
+            </p>
+            <p id="lastModified"></p>
+        </footer>
     </body>
 </html>

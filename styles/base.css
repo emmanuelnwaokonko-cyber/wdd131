@@ -3,24 +3,123 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: "Playwrite GB S Guides", cursive;
+body {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #222;
     line-height: 1.8;
 }
-header{
-    background-color: azure;
+header {
+    background-color: navy;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 300;
 }
-course-title{
+course-title {
     display: block;
     text-align: center;
     color: white;
     font-size: 1.4rem;
     padding: 15px;
     font-weight: 400;
+    background-color: navy;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 0.8rem;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+nav a:hover {
+}
+
 .cards-container{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+.card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card h2 {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+
+}
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+main h1 {
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+}
+.about-content {
+    padding: 1rem;
+}
+.about-content h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5rem;
+}
+.intro {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+.intro img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+.country-info {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.country-info img {
+    width: 120px;
+    border: 1px soild black;
+}
+figcaption {
+    text-align: center;
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+.card ul {
+    padding: 2rem;
+}
+.card ul li {
+    margin-bottom: 0.7rem;
+}
+.card ul li a {
+    color: navy;
+}
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#lastModified {
+    color: yellow;
+    font-size: 0.8rem;
 }
