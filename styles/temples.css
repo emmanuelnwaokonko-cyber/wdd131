@@ -29,11 +29,14 @@ header h2 {
 .navigation.open {
     display: flex;
 }
-.navigation {
+nav {
     display: none;
     flex-direction: column;
     gap: 10px;
     margin-top: 1rem;
+}
+.navigation {
+    none
 }
 .navigation a {
     color: white;
