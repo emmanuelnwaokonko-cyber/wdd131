@@ -36,7 +36,7 @@ nav {
     margin-top: 1rem;
 }
 .navigation {
-    none
+    display: none;
 }
 .navigation a {
     color: white;
