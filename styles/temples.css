@@ -30,7 +30,7 @@ header h2 {
     display: flex;
 }
 nav {
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 1rem;
