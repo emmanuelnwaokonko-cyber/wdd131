@@ -1,11 +1,9 @@
 @media screen and (min-width: 768px) {
-    
-}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2 rem;
+    padding: 1rem 2rem;
 }
 .header-container {
     width: auto;
@@ -17,6 +15,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    margin-top: 0;
 }
 .navigation a {
     color: white;
@@ -50,10 +49,4 @@ figcaption {
     font-size: 1rem;
     font-weight: bold;
 }
-footer {
-    background-color: navy;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
 }
