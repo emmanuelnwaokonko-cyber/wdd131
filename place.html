@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 - Dynamic Web Fundamentals - Emmanuel N</title>
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Emmanuel Nwaokonko. Homepage featuring Nigeria Data and Weather Conditions">
+        <meta name="author" content="Emmanuel Nwaokonko">
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/place-large.css">
+        <script src="scripts/place.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Nigeria</h1>
+        </header>
+        <main>
+            <div class="hero">
+              <picture>
+                <source media="(min-width: 768px)"srcset="images/hero.jfif">
+                <img src="images/hero.jfif" alt="Nigeria City">
+              </picture>
+              <section class="data">
+
+                <h2>Data</h2>
+                <p><strong>Area:</strong> 923,768 km&sup2;</p>
+                <p><strong>Population:</strong> 241,000,000</p>
+                <p><strong>Capital:</strong> FCT, Abuja</p>
+                <p><strong>Languages:</strong> English</p>
+                <p><strong>Currency:</strong> Naira</p>
+                <p><strong>Time Zone:</strong> GMT+1</p>
+                <p><strong>Calling Code:</strong> +234</p>
+                <p><strong>Internet TLD:</strong> .ng</p>
+              </section>
+              <section class="weather">
+                <h2>
+                    Weather
+                    <img src="images/weather.png" alt="Weather Icon" class="weather-icon">
+                </h2>
+                <p><strong>Temperature:</strong> 10&deg;C</p>
+                <p><strong>Conditions:</strong> Cloudy</p>
+                <p><strong>Wind:</strong> 8 km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+              </section>
+            </div>
+        </main>
+        <footer>
+            <p>
+                <span id="currentyear"></span>
+               &copy;2026 | Emmanuel Nwaokonko | Nigeria
+            </p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>
