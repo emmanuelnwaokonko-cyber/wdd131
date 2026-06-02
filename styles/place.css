@@ -1,6 +1,7 @@
 :root {
-    --main-green: green;
-    --text-color: black;
+    --primary-color: green;
+    --secondary-color: black;
+    --secondary-color2: white;
 }
 * {
     margin: 0;
@@ -9,68 +10,68 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    background-color: white;
-    color: black;
+    background-color: var(--secondary-color2);
+    color: var(--secondary-color);
 }
 header {
-    background: var(--main-green);
-    color: white;
+    background: var(--primary-color);
+    color: var(--secondary-color2);
     text-align: center;
     padding: 1rem;
-    border-bottom: 8px solid black;
+    border-bottom: 8px solid white;
 }
 header h1 {
-    font-size: 2rem;
-}
-header h1::after {
-    content: " (NIG)";
-}
-.hero::after {
-    content: "Explore Nigeria 🇳🇬";
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-    border-radius: 5px;
+    font-size: 1rem;
 }
 .hero {
     position: relative;
 }
+.hero picture,
 .hero img {
     width: 100%;
     display: block;
 }
-.data ,
-.weather {
-    margin: 0 auto;
+.hero img {
+    height: auto;
+}
+.data-card,
+.weather-card {
+    background: var(--secondary-color2);
     text-align: center;
-    color: var(--text-color);
     padding: 1rem;
-    background: rgba(255, 255, 255, 0.85);
 }
-.data h2,
-.weather h2 {
-    margin-top: 1rem;
-}
-
-.data p,
-.weather p {
-    margin: .3rem 0;
-    font-size: .9rem;
-}
-
-footer {
-    background-color: var(--main-green);
+.data-card h2,
+.weather-card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    background: var(--primary-color);
     color: white;
+    font-weight: bold;
+}
+.weather-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.data-card p,
+.weather-card p {
+    margin: .5rem 0;
+    font-size: .95rem;
+    line-height: 1.5;
+}
+.weather-icon {
+    width: 40px !important; 
+    height: 40px !important;
+}
+footer {
+    background: var(--primary-color);
+    color: var(--secondary-color2);
     text-align: center;
     padding: 1rem;
-    margin-top: 1rem;
+    border-top: 8px solid white;
+    font-size: .85rem;
 }
 #lastModified {
+    color: yellow;
     font-size: 0.8rem;
-    margin-top: 0.3rem;
-    color: white;
 }
