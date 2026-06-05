@@ -32,9 +32,10 @@ header h2 {
     display: flex;
 }
 .navigation {
-    display: flex;
+    display: none;
     flex-direction: column;
     margin-top: 1rem;
+    gap: 0.5rem;
 }
 .navigation a {
     color: white;

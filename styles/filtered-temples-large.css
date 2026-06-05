@@ -15,7 +15,8 @@ header {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin-top: 0;
+    align-items: center;
+    justify-content: space-around;
 }
 .navigation a {
     font-weight: bold;
