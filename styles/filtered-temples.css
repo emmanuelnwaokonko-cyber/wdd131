@@ -45,6 +45,9 @@ header h2 {
 .navigation a:hover {
     color: yellow;
 }
+.nav {
+    display: flex;
+}
 main {
     max-width: 1200px;
     margin: 0 auto;
