@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: white;
+}
+header {
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2 {
+    font-size: 2rem;
+}
+
+#menu {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+.navigation.open {
+    display: flex;
+}
+.navigation {
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: .5rem 0;
+}
+.navigation a:hover {
+    color: yellow;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+main h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: navy;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+.gallery section {
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.gallery h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.gallery p {
+    margin: .25rem 0;
+    color: navy;
+}
+.gallery p strong {
+    font-variant: small-caps;
+}
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 1rem;
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#lastModified {
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    color: yellow;
+}
