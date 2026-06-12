@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+main {
+    background-color: gold;
+    padding: 1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+legend {
+    font-weight: 600;
+    margin-bottom: .4rem;
+}
+
+.optional {
+    color: navy;
+    font-size: .85rem;
+}
+
+select,
+input[type="date"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: .8rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1.2rem;
+    background: white;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+.rating-group {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.stars div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+}
+
+.stars span {
+    font-size: 1.2rem;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+fieldset label {
+    display: block;
+    margin-bottom: .4rem;
+    font-weight: normal;
+}
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: .4rem;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: .8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: gold;
+}
+
+footer {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 1rem;
+    margin-top: .8rem;
+}
+
+footer p {
+    margin-bottom: .3rem;
+}
