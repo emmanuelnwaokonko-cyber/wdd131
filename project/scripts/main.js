@@ -47,9 +47,6 @@ if (emailInput && emailMsg) {
         }
     });
 }
-// ===============================
-// DOM ELEMENTS
-// ===============================
 
 const form = document.querySelector(".contact-form");
 const messageBox = document.querySelector("#message");
@@ -59,10 +56,6 @@ const output = document.createElement("p");
 if (form) {
     form.appendChild(output);
 }
-
-// ===============================
-// FUNCTION 1 - DISPLAY SERVICES
-// ===============================
 
 function displayServices() {
     const cards = document.querySelectorAll(".card");
@@ -76,10 +69,6 @@ function displayServices() {
         }
     });
 }
-
-// ===============================
-// FUNCTION 2 - FORM VALIDATION
-// ===============================
 
 function validateForm(event) {
     event.preventDefault();
@@ -108,10 +97,6 @@ function validateForm(event) {
     form.reset();
 }
 
-// ===============================
-// FUNCTION 3 - LOAD SAVED DATA
-// ===============================
-
 function loadSavedData() {
     const saved = localStorage.getItem("contactData");
 
@@ -126,17 +111,10 @@ function loadSavedData() {
     }
 }
 
-// ===============================
-// EVENT LISTENERS
-// ===============================
-
 if (form) {
     form.addEventListener("submit", validateForm);
 }
 
-// ===============================
-// INIT
-// ===============================
 const testimonials = [
     {
         name: "John",
