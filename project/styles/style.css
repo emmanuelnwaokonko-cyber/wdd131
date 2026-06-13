@@ -68,7 +68,7 @@ header p{
     background:
     linear-gradient(rgba(0,0,0,.65),
     rgba(0,0,0,.65)),
-    url("../images/hero.jfif");
+    url("../images/hero.webp");
     background-size:cover;
     background-position:center;
     display:flex;
@@ -230,21 +230,23 @@ h2{
     color: gold;
 }
 
-/* FOOTER */
 
-footer{
-    background:#000;
-    color: gold;
-    text-align:center;
-    padding:1rem;
-    margin-top: .8rem;
-}
 footer {
     background-color: black;
     color: gold;
     text-align: center;
     padding: 1rem;
     margin-top: .8rem;
+}
+.footer-link{
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.footer-link:hover{
+    color:#ffd700;
+    text-decoration:underline;
 }
 #menu-btn {
     display: none;

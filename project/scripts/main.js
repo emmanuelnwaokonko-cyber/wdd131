@@ -157,7 +157,7 @@ let current = 0;
 function showTestimonial() {
     document.querySelector("#testimonial").innerHTML = `
         <p>"${testimonials[current].review}"</p>
-        <h4>- ${testimonials[current].name}</h4>
+        <h3>- ${testimonials[current].name}</h3>
     `;
 
     current = (current + 1) % testimonials.length;
