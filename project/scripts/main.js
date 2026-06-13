@@ -99,6 +99,7 @@ function validateForm(event) {
         email: email,
     };
 
+
     localStorage.setItem("contactData", JSON.stringify(userData));
 
     output.textContent = `Thank you ${name}, Your message has been received, we will contact you soon.`;
