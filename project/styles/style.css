@@ -68,7 +68,7 @@ header p{
     background:
     linear-gradient(rgba(0,0,0,.65),
     rgba(0,0,0,.65)),
-    url("../images/hero.webp");
+    url("../images/hero.jpg");
     background-size:cover;
     background-position:center;
     display:flex;
