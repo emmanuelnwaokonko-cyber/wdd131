@@ -297,3 +297,48 @@ footer {
 .stats h3{
     font-size:2rem;
 }
+@media (max-width:768px){
+
+    .header-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .navigation{
+        flex-direction:column;
+        display: none;
+    }
+    .navigation.open {
+        display: flex;
+    }
+
+    .navigation li{
+        text-align:center;
+        border-top:1px solid #333;
+    }
+
+    .hero{
+        height:60vh;
+    }
+
+    .hero h2{
+        font-size:2rem;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+    #menu-btn {
+        display: block;
+        background: none;
+        border: none;
+        color: gold;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
